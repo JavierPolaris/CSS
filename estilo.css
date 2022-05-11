@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.conteneifr {
+   
+    display: flex;
+    align-items: flex-start;
+    height: 120rem;
+   
+    justify-content: space-around;
+    background-color: rgb(98, 187, 255);
+
+
+}
+
+.conteneifr_blanco {
+    box-shadow: 0 10px 25px rgb(80, 79, 79);
+    border-radius: 2%;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    
+    
+    width: 50rem;
+}
+
+.foto1,
+.foto2,
+.foto3
+ {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+
+    /* border-bottom: 1px solid rgb(160, 160, 160); */
+   
+}
+.foto4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.perro1,
+.perro2,
+.perro3,
+.perro4 {
+    background-size: cover;
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    padding: 5%;
+    
+    
+}
+
+p {
+    color: rgb(163, 159, 159);
+    font-size: 1.5rem;
+    
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(45, 45, 45);
+    
+}
+
